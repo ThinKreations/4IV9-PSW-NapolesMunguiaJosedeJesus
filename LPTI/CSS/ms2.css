@@ -1,0 +1,85 @@
+@font-face {
+    font-family: serif;
+    src: url(../Oswald-VariableFont_wght.ttf);
+}
+
+*{
+    padding: auto;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+body{
+    background-color: #131313;
+    background-size: 100vw 100vh;
+    filter:brightness(100%);    
+}
+
+.main-container{
+    margin: 0rem;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mainHead{
+    background-color: #000000;
+    max-width: fit-content;
+    max-height: auto;
+    text-align: center;
+    margin: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 7.5px;
+    display:inline-block;
+}
+
+.principal{
+    margin: 1rem;
+    background: #000000;
+}
+
+nav{
+    border: 2px solid #ffffff;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #000000; 
+}
+
+footer{
+    border: 2px solid #ffffff;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #000000;
+    max-width: fit-content;
+    display:inline-block;   
+}
+
+img{
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+}
+
+aside{
+    
+    max-width: fit-content;
+    height:auto;
+    justify-content: center;
+    background-color: #000000; 
+    border: 1px solid #ffffff;
+    border-radius: 7.5px;  
+    margin: 1rem;
+}
+
+.intro{
+    
+    max-width: 100%;
+    height:auto;
+    justify-content: center;
+    background-color: #000000; 
+    border: 1px solid #ffffff;
+    border-radius: 7.5px;  
+    margin: 1rem;
+}
