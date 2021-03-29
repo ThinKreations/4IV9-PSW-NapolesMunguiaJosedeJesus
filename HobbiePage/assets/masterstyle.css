@@ -4,7 +4,9 @@
     }
     
     body{
-        background-color: #bdbdbd;
+        background-image: linear-gradient(to top, rgba(56, 56, 56, 0.397) 0%, rgba(54, 54, 54, 0.377) 100%), url(../assets/images/bg2.jpg);
+        background-position: initial;
+        background-size: 100vw 100vh;
         margin:0px;
         line-height: 1.5em; 
     }
