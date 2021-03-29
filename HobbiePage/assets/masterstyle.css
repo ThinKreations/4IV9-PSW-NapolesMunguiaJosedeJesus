@@ -1,0 +1,78 @@
+@font-face{
+    font-family:Quicksand;
+        src: url(../Quicksand-VariableFont_wght.ttf);
+    }
+    
+    body{
+        background-color: #bdbdbd;
+        margin:0px;
+        line-height: 1.5em; 
+    }
+    
+    .main-head{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.397) 0%, rgba(0, 0, 0, 0.377) 100%), url(../assets/images/bg.jpg);
+        background-position: inherit;
+        background-size: contain;
+        margin: 0;
+        width: 100%;
+        height:auto;
+        display:flex;
+        justify-content: space-between;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        align-items:center;
+        box-shadow: 2px 2px 7px rgb(36, 36, 36)
+    }
+    
+        .main-head a{
+            width:100%;
+            color: white;
+            text-decoration: none;
+        }
+    
+    a{
+        width:100%;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .main{
+        width: 90%;
+        max-width: 1200px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-between;
+    }
+    
+    aside:hover img{
+        transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transition:all 0.5s ease-in-out;
+    }
+    
+    aside{
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        width: 23%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.397) 0%, rgba(0, 0, 0, 0.377) 100%), url(../assets/images/bg.jpg);
+        background-position: unset;
+        background-size: cover;
+        box-shadow: 2px 2px 5px rgb(36, 36, 36);
+        border-radius:10px;
+    }
+    
+    .footy{
+        background-image: url(../assets/images/bg3.png);
+        background-position: bottom;
+        background-size: contain;
+        margin: 0;
+        width: 100%;
+        height:60px;
+        position: absolute;
+        bottom:0;
+        left:0;
+    }
+    
