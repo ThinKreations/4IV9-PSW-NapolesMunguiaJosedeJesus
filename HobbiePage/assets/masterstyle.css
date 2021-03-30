@@ -65,9 +65,7 @@ a{
     align-items: center;
     width: 75%;
     height: auto;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.397) 0%, rgba(0, 0, 0, 0.377) 100%), url(../assets/images/bg.jpg);
-    background-position: unset;
-    background-size: cover;
+    background-color: #919191;
     box-shadow: 0px 0px 10px rgb(36, 36, 36);
     border-radius:10px;
 }
