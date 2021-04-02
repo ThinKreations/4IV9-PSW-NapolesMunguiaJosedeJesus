@@ -7,7 +7,6 @@ function entrada(){
     var final=sal+agregado;
     var valid=true;
     var fail=0;
-    var e='e';
 
     if(sal<1||ventas<0){
         alert("Error al ingresar datos.");
