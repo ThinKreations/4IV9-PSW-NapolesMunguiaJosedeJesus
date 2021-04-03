@@ -125,14 +125,16 @@ footer{
     outline: 2.5px solid #ffff00;
   }
 
-
   .f-sumbit{
       background-color: #ffff00;
       border: none;
       border-radius: 2.5px;
+      
   }
 
   .f-label {
-
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px ;
     width: auto;
+    box-shadow: 0px 0px 10px rgb(20, 20, 20);
   }
