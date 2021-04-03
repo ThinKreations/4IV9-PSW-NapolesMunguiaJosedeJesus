@@ -8,7 +8,7 @@ function entrada(){
         alert("Llena los campos con números positivos");
         valid==false;
         return false;
-    }else if(num1<1||num2<2){
+    }else if(num1<1||num2<1){
         alert("Sólo números POSITIVOS");
         document.getElementById('num1').value="";
         document.getElementById('num2').value="";
