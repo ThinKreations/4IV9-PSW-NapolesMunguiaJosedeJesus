@@ -9,7 +9,6 @@ function entrada(){
         document.getElementById('pago').value="";
         valid==false;
         return false;
-        
     }
 
     if(valid==true){
