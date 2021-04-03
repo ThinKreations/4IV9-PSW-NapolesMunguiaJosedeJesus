@@ -6,7 +6,6 @@ function entrada(){
     var agregado=(sal*0.1)*(ventas);
     var final=sal+agregado;
     var valid=true;
-    var fail=0;
 
     if(sal<1||ventas<0){
         alert("Error al ingresar datos.");
