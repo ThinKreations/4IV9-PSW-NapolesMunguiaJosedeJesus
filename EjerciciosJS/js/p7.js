@@ -5,7 +5,7 @@ function entrada(){
     var valid=false;
 
     if(document.getElementById('num1').value==""||document.getElementById('num2').value==""){
-        alert("Llena los campos");
+        alert("Llena los campos con números positivos");
         valid==false;
         return false;
     }else if(num1<1||num2<2){
