@@ -11,6 +11,12 @@ function entrada(){
     var ef=efinal*0.3;
     var tf=tfinal*0.15;
     
+    if (document.getElementById('par1').value==""||document.getElementById('par2').value==""||document.getElementById('par3').value==""||document.getElementById('ef').value==""||document.getElementById('tf').value==""){
+        alert("Llena todos los campos");
+        valid==false;
+        return false;
+    }
+
     if(p1>10||p2>10||p3>10||efinal>10||tfinal>10||p1<0||p2<0||p3<0||efinal<0||tfinal<0){
         alert("Ingrese SÓLO números del 0 al 10");
         document.getElementById('par1').value="";
