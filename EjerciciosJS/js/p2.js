@@ -16,7 +16,7 @@ function entrada(){
     }
 
     if(valid==true){
-        alert("El pago final es de "+final);
+        alert("El pago final es de $"+final);
         document.form2.salario.value="";
         document.form2.ventas.value="";
     }

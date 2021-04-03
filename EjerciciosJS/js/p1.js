@@ -33,7 +33,7 @@ function enviar(){
     }
 
     if(valid==true){
-    alert("El monto total más sus intereses es: "+total);
+    alert("El monto total más sus intereses es: $"+total);
         document.form1.cantidad.value="";
         document.form1.meses.value="";
     }
