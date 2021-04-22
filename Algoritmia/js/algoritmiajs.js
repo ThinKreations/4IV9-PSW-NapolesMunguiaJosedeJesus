@@ -93,16 +93,24 @@ wiiiiiiiiiiiiiiii uwu/
 */
 
 function problema3(){
-    var noletras='0123456789 .;:{}[]()/&%$#"!¡?¿"|°¬@-_><=/*-+¨´';
-
+    var letras=["Q","W","E","R","T","Y","U","I","O","P","A","S","D","F","G","H","J","K","L","Ñ","Z","X","C","V","B","N","M",",","Á","É","Í","Ó","Ú"];
     var text=document.querySelector('#p3-input').value.toUpperCase();
-
+    var p3_list=text.split(',');
     
-
-    alert(text)
-    document.querySelector('#p3-output').textContent = 'ola';
-
+    for(i=0;i<p3_list.length();i++){
+        console.log(p3_list[i]);
+    }
+    return p3_list;
+    
 }
 
+function letter(e){
+    var key = (document.all)?e.keyCode : e.which;
+    if(key==8){
+        return true;
+    }
+    var pat=/[A-Z\,]/g;
+    var test = String.fromCharCode(key);
+    return pat.test(test);
 
-
+}
