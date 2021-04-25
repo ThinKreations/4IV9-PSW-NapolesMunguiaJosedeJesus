@@ -15,12 +15,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 485px;
+    height: 642px;
     display: inline-block;
     justify-content: center;
     align-items: flex-end;
     text-align: center;
     position: relative;
+    box-shadow: 0px 0px 15px rgb(31, 31, 31);
 }
 
 .divHead{
@@ -47,17 +48,24 @@ header a {
     color: white;
     text-decoration: none;
 }
+
 .main{
     display: flex;
     justify-content: center;
-
 }
+
 .mainContainer{
+    background-color: #c0a570;
     width: 65vw;
     height: auto;
     padding: 3vw;
     border-radius: 12px;
     align-items: center;
     text-align: justify;
-    box-shadow: 0px 0px 10px rgb(36, 36, 36);
+    box-shadow: 0px 0px 7px rgb(36, 36, 36);
+}
+
+.mainContainer img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgb(29, 29, 29);
 }
