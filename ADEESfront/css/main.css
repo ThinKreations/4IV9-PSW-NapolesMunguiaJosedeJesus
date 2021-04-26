@@ -76,7 +76,7 @@ header a {
 .mainContainer img{
     border-radius: 10px;
     box-shadow: 0px 0px 8px rgb(29, 29, 29);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 .mainContainer:hover img{
