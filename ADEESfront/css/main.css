@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../resources/mc-bg2.jpg);
+    background-color: #faf6df;
     margin:0;
     padding:0;
 }
@@ -23,8 +23,8 @@ body{
     text-align: center;
     position: relative;
     box-shadow: 0px 0px 15px rgb(31, 31, 31);
-}
-
+} 
+ 
 .divHead{
     width: 95vw;
     height: 8vh;
@@ -62,7 +62,7 @@ header a {
 }
 
 .mainContainer{
-    background-image: linear-gradient(to top, rgba(168, 136, 66, 0.397) 0%, rgba(168, 136, 66, 0.377) 100%), url(../resources/mc-bg.jpg);
+    background-image: linear-gradient(to top, rgba(160, 125, 60, 0.397) 0%, rgba(160, 125, 60, 0.377) 100%), url(../resources/mc-bg.jpg);
     background-attachment: fixed;
     width: 65vw;
     height: auto;
