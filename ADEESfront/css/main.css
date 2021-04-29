@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #faf6df;
+    background-color: #fdf9df;
     margin:0;
     padding:0;
 }
@@ -16,7 +16,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     display: inline-block;
     justify-content: center;
     align-items: flex-end;
@@ -62,7 +62,7 @@ header a {
 }
 
 .mainContainer{
-    background-image: linear-gradient(to top, rgba(160, 125, 60, 0.397) 0%, rgba(160, 125, 60, 0.377) 100%), url(../resources/mc-bg.jpg);
+    background-image: linear-gradient(to top, rgba(150, 115, 55, 0.397) 0%, rgba(150, 115, 55, 0.377) 100%), url(../resources/mc-bg.jpg);
     background-attachment: fixed;
     width: 65vw;
     height: auto;
@@ -70,7 +70,7 @@ header a {
     border-radius: 15px;
     align-items: center;
     text-align: justify;
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px rgb(34, 34, 34);
 }
 
 .mainContainer img{
@@ -81,5 +81,21 @@ header a {
 
 .mainContainer:hover img{
     transform: scale(1.1);
-} 
+}
 
+.footy{
+    background-image: linear-gradient(to top, rgba(240, 240, 240, 0.397) 0%, rgba(240, 240, 240, 0.377) 100%), url(../resources/mc-bg2.jpg);
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    box-shadow: 0px 0px 15px rgb(116, 116, 116);
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footy a{
+    color: #000000;
+    text-decoration: underline;
+}
