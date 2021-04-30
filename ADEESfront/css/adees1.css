@@ -27,7 +27,8 @@ body{
 }
 
 .logo{
-    text-shadow: 0px 0px 4px rgb(10, 10, 10);
+    width: 100%;
+    text-shadow: 0px 0px 3px rgb(10, 10, 10);
 }
 
 .main1 a{
@@ -54,7 +55,31 @@ body{
   }
 
   .f-input:focus {
-    outline: 2.5px solid #7fd0ff;
+    outline: 2.5px solid #aee1ff;
     shape-outside: border-box;
     
   }
+
+.table0 td{
+    padding-top: 12vh;
+    
+}
+
+.table0 a{
+    border-radius: 0;
+}
+
+.divLog0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usertypeLog{
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    border: 2.5px solid #000000;
+    border-radius: 7.5px;
+    background-image: url(../resources/mc-bg2.jpg);
+}
