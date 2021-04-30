@@ -56,8 +56,6 @@ body{
 
   .f-input:focus {
     outline: 2.5px solid #aee1ff;
-    shape-outside: border-box;
-    
   }
 
 .table0 a{
@@ -71,10 +69,14 @@ body{
 }
 
 .usertypeLog{
-    width: 25%;
+    width: 24%;
     height: auto;
     margin: 10px;
     border: 2.5px solid #000000;
     border-radius: 7.5px;
     background-image: url(../resources/mc-bg2.jpg);
+}
+
+.usertypeLog a{
+    text-decoration: none;
 }
