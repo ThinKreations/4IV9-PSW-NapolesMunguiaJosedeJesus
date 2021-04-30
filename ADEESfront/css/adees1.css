@@ -8,7 +8,7 @@ body{
 }
 
 .menu{
-    padding-top: 10px;
+    padding-top: 25px;
     width:77vw;
     height: auto;
     display: flex;
@@ -16,6 +16,7 @@ body{
 }
 
 .menu a{
+    width: 10%;
     text-decoration:none;
     background-color: #ffffff;
     color:#000000;
@@ -31,7 +32,7 @@ body{
 }
 .mainF0{
     margin:0;
-    padding-top: 7.5vh;
+    padding-top: 5vh;
     display: inline-block;
     justify-content: center;
 }
@@ -54,7 +55,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     width: 85vw;
-    height: 74vh;
+    height: 75vh;
     max-height: 2000px;
     border: 2.5px solid #000000;
     border-radius: 10px;
