@@ -8,7 +8,7 @@ body{
 }
 
 .menu{
-    
+    padding-top: 10px;
     width:77vw;
     height: auto;
     display: flex;
@@ -54,7 +54,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     width: 85vw;
-    height: 75vh;
+    height: 74vh;
     max-height: 2000px;
     border: 2.5px solid #000000;
     border-radius: 10px;
