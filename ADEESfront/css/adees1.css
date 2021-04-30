@@ -58,6 +58,17 @@ body{
     outline: 2.5px solid #aee1ff;
   }
 
+.f-input0 {
+    width: 16vw;
+    background: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 10px rgb(10, 10, 10);
+}
+
+  .f-input0:focus {
+    outline: 2.5px solid #aee1ff;
+  }
+
 .table0 a{
     border-radius: 0;
 }
@@ -79,4 +90,37 @@ body{
 
 .usertypeLog a{
     text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.usertypeLog:hover img{
+    transform: scale(1.2);
+}
+
+.formLog0{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formLog0 aside{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formLog0 aside p{
+    margin:15px;
+}
+
+.checkbox0{
+    border: 1.5px solid #000000;
+}
+
+.formLog0 button{
+    margin-top: 20px;
+    width: auto;
+    background: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 10px rgb(10, 10, 10);
 }
