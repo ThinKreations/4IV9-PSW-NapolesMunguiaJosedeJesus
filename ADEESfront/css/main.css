@@ -57,7 +57,7 @@ header a {
 }
 
 .main{
-    
+    padding-top: 75px;
     display: flex;
     justify-content: center;
 }
@@ -92,7 +92,7 @@ header a {
 
 .footy{
     background-image: linear-gradient(to top, rgba(240, 235, 220, 0.397) 0%, rgba(240, 235, 220, 0.377) 100%), url(../resources/mc-bg2.jpg);
-    
+    margin-top:75px;
     width: 100%;
     height: max-content;
     position: absolute;
