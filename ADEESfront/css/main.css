@@ -28,7 +28,7 @@ body{
  
 .divHead{
     width: 95vw;
-    height: 8vh;
+    height: 7vh;
     margin: 0%;
     display: inline-block;
     justify-content: space-between;
@@ -76,8 +76,13 @@ header a {
 
 .mainContainer a{
     color: #000000;
-    text-shadow: 0px 0px 3px #000000;
+    text-shadow: 0px 0px 3.5px #111111;
     text-decoration: none;
+}
+
+.imgIni{
+    width: 230px;
+    height: 152px;
 }
 
 .mainContainer img{
