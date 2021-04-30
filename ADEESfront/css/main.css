@@ -63,7 +63,7 @@ header a {
 }
 
 .mainContainer{
-    background-image: linear-gradient(to top, rgba(110, 100, 80, 0.397) 0%, rgba(240, 190, 80, 0.377) 100%), url(../resources/mc-bg.jpg);
+    background-image: linear-gradient(to top, rgba(110, 100, 80, 0.397) 0%, rgba(240, 180, 55, 0.377) 100%), url(../resources/mc-bg.jpg);
     background-attachment: fixed;
     width: 65vw;
     height: auto;
