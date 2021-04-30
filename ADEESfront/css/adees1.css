@@ -8,10 +8,19 @@ body{
 }
 
 .menu{
+    
     width:77vw;
     height: auto;
     display: flex;
     justify-content: space-between;
+}
+
+.menu a{
+    text-decoration:none;
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 7.5px;
+    box-shadow: 0px 0px 10px rgb(10, 10, 10);
 }
 
 .main0{
@@ -28,7 +37,7 @@ body{
 }
 
 .main1{
-    background-image: linear-gradient(to top, rgba(255, 0, 170, 0.397) 0%, rgba(61, 157, 221, 0.377) 100%), url(../resources/fl0.jpg);
+    background-image: linear-gradient(to top, rgba(150, 150, 150, 0.397) 0%, rgba(150, 150, 150, 0.377) 100%), url(../resources/fl0.jpg);
     background-attachment: fixed;
     background-size: cover;
     width: 77vw;
@@ -41,7 +50,7 @@ body{
 }
 
 .mainF{
-    background-image: linear-gradient(to top, rgba(20, 255, 165, 0.397) 0%, rgba(255, 251, 20, 0.377) 100%), url(../resources/ff0.jpg);
+    background-image: linear-gradient(to top, rgba(150, 150, 150, 0.397) 0%, rgba(150, 150, 150, 0.377) 100%), url(../resources/fl0.jpg);
     background-attachment: fixed;
     background-size: cover;
     width: 85vw;
@@ -87,6 +96,7 @@ body{
     width: 30%;
     background: rgb(255, 255, 255);
     border: 2px solid #000000;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(10, 10, 10);
   }
 
@@ -98,6 +108,7 @@ body{
     width: 16vw;
     background: rgb(255, 255, 255);
     border: 2px solid #000000;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(10, 10, 10);
 }
 
@@ -117,7 +128,7 @@ body{
 
 .usertypeLog{
     width: 24%;
-    height: auto;
+    height: 35%;
     margin: 10px;
     border: 2.5px solid #000000;
     border-radius: 7.5px;
@@ -126,13 +137,9 @@ body{
 }
 
 .usertypeLog a{
-    text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 
-.usertypeLog:hover img{
-    transform: scale(1.2);
-}
 
 .formLog0{
     display: flex;
@@ -150,14 +157,11 @@ body{
     margin:15px;
 }
 
-.checkbox0{
-    border: 1.5px solid #000000;
-}
-
 .formLog0 button{
     margin-top: 20px;
     width: auto;
     background: rgb(255, 255, 255);
     border: 2px solid #000000;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(10, 10, 10);
 }
