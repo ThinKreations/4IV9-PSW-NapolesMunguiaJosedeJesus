@@ -22,11 +22,11 @@ class main:
         self.absBtn.place(x=120, y = 100, width = 250, height = 100)
         self.absBtn.config(bg= '#2F4149', fg = '#A8E2FC', font = ("Arial", 15))
     
-        self.relBtn = Button(master, text = "Grafica tipo pastel \n (Frecuencia absoluta)", command = self.winFAbsoluta)
+        self.relBtn = Button(master, text = "Grafica tipo pastel \n (Frecuencia absoluta)", command = self.winFRelativa)
         self.relBtn.place(x = 120, y = 225, width = 250, height = 100)
         self.relBtn.config(bg= '#2F4149', fg = '#A8E2FC', font = ("Arial", 15))
         
-        self.mmmBtn = Button(master, text = "Moda \n Media \n Mediana", command = self.winFAbsoluta)
+        self.mmmBtn = Button(master, text = "Moda \n Media \n Mediana", command = self.winMMM)
         self.mmmBtn.place(x = 120, y = 350, width = 250, height = 100)
         self.mmmBtn.config(bg= '#2F4149', fg = '#A8E2FC', font = ("Arial", 15))
     
@@ -35,6 +35,10 @@ class main:
         new_= Toplevel(root)
         new_.geometry('500x540')
         new_.config(bg = '#243137')
+        
+        self.titleAbsolute = Label(new_)
+        self.titleAbsolute.pack(anchor = CENTER)
+        self.titleAbsolute.config(text = "Eliga la frecuencia absoluta \n que desea visualizar:", fg = "RoyalBlue4", font = ("Arial", 16))
                 
 root = Tk()
 root.resizable(False, False)
