@@ -32,14 +32,32 @@ class main:
     
     def winFAbsoluta(self):
         
-        new_= Toplevel(root)
-        new_.geometry('500x540')
-        new_.config(bg = '#243137')
+        new_win1= Toplevel(root)
+        new_win1.geometry('500x540')
+        new_win1.config(bg = '#243137')
         
-        self.titleAbsolute = Label(new_)
-        self.titleAbsolute.pack(anchor = CENTER)
-        self.titleAbsolute.config(text = "Eliga la frecuencia absoluta \n que desea visualizar:", fg = "RoyalBlue4", font = ("Arial", 16))
-                
+        self.titleRel = Label(new_win1)
+        self.titleRel.pack(anchor = CENTER)
+        self.titleRel.config(text = "Eliga la frecuencia absoluta \n que desea visualizar:", bg= '#243137', fg = '#A8E2FC', font = ("Arial", 16))
+        
+        self.fa_colorBtncolorBtn = Button(new_win1, text = "Color", command = self.FAColor)
+        self.fa_color.place(x = 120, y = 350, width = 120, height = 80)
+        self.fa_color.config(bg= '#2F4149', fg = '#A8E2FC', font = ("Century Gothic", 15))
+        
+    def FAColor(self):
+        
+        datos = pd.read_csv('datos.csv')
+        dF = pd.DataFrame(datos)
+        
+        
+    def winFRelativa(self):
+            
+        a
+        
+    def winMMM(self):
+            
+        a
+        
 root = Tk()
 root.resizable(False, False)
 root.config(bg = '#243137')
