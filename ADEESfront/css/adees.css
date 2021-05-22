@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../Rubik-VariableFont_wght.ttf);
+}
+
+body{
+    background-image: linear-gradient(to top, rgba(230, 230, 230, 0.397) 0%, rgba(230, 230, 230, 0.377) 100%), url(../resources/mc-bg2.jpg);
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.title{
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.ADEEScontainer_0{
+    margin:0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.ADEEScontainer_1{
+    background-image: linear-gradient(to top, rgba(130, 70, 0, 0.397) 0%, rgba(69, 40, 5, 0.377) 100%), url(../resources/mc-bg.jpg);
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    box-shadow: 0px 0px 10px rgb(69, 69, 69);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+    .ADEEScontainer_1 h1{
+        margin: 1px;
+        padding:10px;
+    }
+
+    .ADEEScontainer_1 a{
+        
+        text-decoration: none;
+        color:#ffffff;
+    }
+
+.form_log_0{
+    text-align: center;
+}
+
+    .form_log_0 a{
+        text-decoration: none;
+        color: #000000;
+        text-shadow: 0px 0px 2px #000000;
+    }
+
+.menu_tipo{
+
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+    .menu_tipo aside{
+        background-image: linear-gradient(to top, rgba(69, 40, 5, 0.397) 0%, rgba(130, 70, 0, 0.377) 100%), url(../resources/mc-bg.jpg);
+        margin-top:10px;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 240px;
+        min-height: max-content;
+        border-radius: 7.5px;
+    box-shadow: 0px 0px 10px rgb(69, 69, 69);
+    }
+
+        .menu_tipo aside a{
+            text-decoration: none;
+            color: #000000;
+            text-shadow: 0px 0px 2px #000000;
+        }
+
+.f_input_0{
+    width: 15vw;
+}
+
+    .f_input_0:focus {
+        outline: 1px solid #000000;
+    }
+
+.f_button_inicio{
+    background-image: linear-gradient(to top, rgba(130, 70, 0, 0.397) 0%, rgba(130, 70, 0, 0.377) 100%), url(../resources/mc-bg.jpg);
+    margin-top: 33px;
+    margin-bottom: 15px;
+    width: 15vw;
+    min-width: fit-content;
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(69, 69, 69);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.link{
+        text-decoration: none;
+            color: #000000;
+            text-shadow: 0px 0px 2px #000000;
+}
+
+.footy{
+    background-image: linear-gradient(to top, rgba(69, 40, 5, 0.397) 0%, rgba(130, 70, 0, 0.377) 100%), url(../resources/mc-bg.jpg);
+    margin-top:30px;
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(69, 69, 69);
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
