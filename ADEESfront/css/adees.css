@@ -90,7 +90,8 @@ body{
     }
 
 .f_button_inicio{
-    background-image: linear-gradient(to top, rgba(0, 120, 130, 0.397) 0%, rgba(0, 120, 130, 0.377) 100%), url(../resources/mc-bg.jpg);
+    background-image: linear-gradient(to top, rgba(0, 120, 130, 0.397) 0%, rgba(0, 120, 130, 0.377) 100%), url(../resources/bg1.jpg);
+    background-position: center;
     margin-top: 35px;
     margin-bottom: 15px;
     width: 20vw;
@@ -112,12 +113,11 @@ body{
     background-size: 50%;
     background-position: center;
     width: 100%;
-    height: max-content;
-    margin-top: 8vh;
+    
+    
     position: absolute;
     box-shadow: 0px 0px 10px rgb(69, 69, 69);
-    display: flexbox;
-    justify-content: space-between;
+    
     align-items: center;
     text-align: center;
     text-shadow: 0px 0px 5px rgb(0, 0, 0);
