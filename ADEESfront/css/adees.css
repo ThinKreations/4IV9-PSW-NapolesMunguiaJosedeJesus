@@ -113,7 +113,7 @@ body{
     background-position: center;
     width: 100%;
     height: max-content;
-    margin-bottom: 0;
+    margin-top: 7.5vh;
     position: absolute;
     box-shadow: 0px 0px 10px rgb(69, 69, 69);
     display: flexbox;
