@@ -62,8 +62,9 @@ body{
 }
 
     .form_1 td{
-        width: 30vw;
-        min-width: 300px;
+        text-align: center;
+        width: 40vw;
+        min-width: 200px;
     }
 
 .menu_tipo{
@@ -104,8 +105,8 @@ body{
 
 
 .f_input_1{
-    width: 25vw;
-    min-width: 75px;
+    width: 15vw;
+    min-width: 100px;
     border: 1.5px solid #000000;
 }
 
@@ -128,7 +129,7 @@ body{
 
 .sign{
     width: 80%;
-    height: 500px;
+    height: auto;
     
     align-items: center;
 }
