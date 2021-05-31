@@ -6,6 +6,7 @@
 body{
     background-image: linear-gradient(to top, rgba(230, 230, 230, 0.397) 0%, rgba(230, 230, 230, 0.377) 100%), url(../resources/bg2.jpg);
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     margin: 0%;
     padding: 0%;
@@ -68,7 +69,7 @@ body{
         margin-bottom: 15px;
         margin-left: 15px;
         margin-right: 15px;
-        width: 320px;
+        width: 350px;
         height: auto;
         min-width: 200px;
         min-height: max-content;
