@@ -44,14 +44,26 @@ body{
         color:#ffffff;
     }
 
-.form_log_0{
+.form_0{
     text-align: center;
 }
 
-    .form_log_0 a{
+    .form_0 a{
         text-decoration: none;
         color: #000000;
         text-shadow: 0px 0px 2px #000000;
+    }
+
+.form_1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+    .form_1 td{
+        width: 30vw;
+        min-width: 300px;
     }
 
 .menu_tipo{
@@ -90,17 +102,35 @@ body{
         outline: 1.5px solid #000000;
     }
 
+
+.f_input_1{
+    width: 25vw;
+    min-width: 75px;
+    border: 1.5px solid #000000;
+}
+
+    .f_input_1:focus {
+        outline: 1.5px solid #000000;
+    }
+
 .f_button_inicio{
     background-image: linear-gradient(to top, rgba(0, 120, 130, 0.397) 0%, rgba(0, 120, 130, 0.377) 100%), url(../resources/bg1.jpg);
     background-position: center;
     margin-top: 35px;
     margin-bottom: 15px;
     width: 20vw;
-    min-width: 300px;
+    min-width: max-content;
     border:0;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(69, 69, 69);
     text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.sign{
+    width: 80%;
+    height: 500px;
+    
+    align-items: center;
 }
 
 .link{
