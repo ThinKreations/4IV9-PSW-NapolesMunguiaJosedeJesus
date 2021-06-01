@@ -48,7 +48,7 @@ body{
     background-image: linear-gradient(to top, rgba(0, 120, 130, 0.397) 0%, rgba(100, 100, 100, 0.377) 100%), url(../resources/bg1.jpg);
     background-size: 50%;
     background-position: center;
-    
+    z-index: 9999;
     width: 100%;
     height: auto;
     max-height: 200px;
@@ -119,6 +119,43 @@ body{
         text-shadow: 0px 0px 7.5px rgb(0, 0, 0);
     }
 
+.lateral{
+    background-image: linear-gradient(90deg, rgba(220, 220, 220, 0.397) 0%, rgba(0, 120, 130, 0.377) 100%), url(../resources/bg1.jpg);
+    background-position:center;
+    position: fixed;
+    top:0;
+    bottom:0;
+    width: 25vw;
+    min-width: 180px;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: 0px 0px 7.5px rgb(0, 0, 0);
+    z-index: 9998;
+    transition:transform .3 ease-in-out;
+    transform:translate(-105%);
+}
+
+    .lateral a{
+        padding: 10px;
+        
+    }
+
+    .lateral h3{
+        transition: transform .3 ease-in-out;
+    }
+
+    .lateral h3:hover{
+        padding: 10px;
+    }
+
+.menu_icon{
+    position: fixed;
+    left: 20px;
+    
+}
 
 .f_input_0{
     width: 20vw;
@@ -170,13 +207,29 @@ body{
 }
 
 .ADEEScontainer_3{
-    background-image: linear-gradient(to top, rgba(200, 200, 200, 0.397) 0%, rgba(200, 200, 200, 0.377) 100%), url(../resources/bg3.jpg);
+    
     width: 90%;
     border-radius: 10px;
-    margin: 50px;
-    display: inline-block;
+    
+    margin: 15px;
+    display: inline-flexbox;
     justify-content: space-between;
-    box-shadow: 0px 0px 7.5px rgb(100, 100, 100);
+    text-align: center;
+    align-items: center;
+}
+.ADEEScontainer_3 a{
+    margin: 3%;
+    
+    text-decoration: none;
+            color: #000000;
+            text-shadow: 0px 0px 2px #000000;
+}
+
+.menu{
+    background-image: linear-gradient(to top, rgba(200, 200, 200, 0.397) 0%, rgba(200, 200, 200, 0.377) 100%), url(../resources/bg3.jpg);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(69, 69, 69);
 }
 
 .footy{
