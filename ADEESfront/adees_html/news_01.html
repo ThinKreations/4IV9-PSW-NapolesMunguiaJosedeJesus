@@ -36,26 +36,29 @@
                     var menu = document.querySelector('.menu_icon');
                     var lateral = document.querySelector('.lateral');
 
-                    console.log(menu)
-                    console.log(lateral)
+                    console.log(menu);
+                    console.log(lateral);
 
                     menu.addEventListener('click',()=>{
-                        lateral.classList.toggle("abrir")
-                        menu.classList.toggle("abrir_icon")
+                        lateral.classList.toggle("abrir");
+                        menu.classList.toggle("abrir_icon");
                     })
 
 
                     window.addEventListener('click', e=>{
                         if(lateral.classList.contains('abrir')&&e.target!=lateral && e.target!=menu){
 
-                            lateral.classList.toggle("abrir")
-                            menu.classList.toggle("abrir_icon")
+                            lateral.classList.toggle("abrir");
+                            menu.classList.toggle("abrir_icon");
                         }
 
                         
-                    })
+                    });
+
+                    
                 </script>          
                 <br>
+            </div> 
         </font>
         <br>
     <footer class="footy">

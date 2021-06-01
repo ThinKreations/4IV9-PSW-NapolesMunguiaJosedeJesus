@@ -48,6 +48,7 @@ body{
     background-image: linear-gradient(to top, rgba(0, 120, 130, 0.397) 0%, rgba(100, 100, 100, 0.377) 100%), url(../resources/bg1.jpg);
     background-size: 50%;
     background-position: center;
+    
     z-index: 9999;
     width: 100%;
     height: auto;
@@ -127,7 +128,7 @@ body{
     bottom:0;
     width: 25vw;
     min-width: 180px;
-    height: 100vh;
+    height: 100%;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -141,16 +142,16 @@ body{
 }
 
     .lateral a{
-        padding: 10px;
-        
+        padding: 2%;
+                
     }
 
     .lateral h3{
-        transition: transform .3s ease-in-out;
+        transition: transform 0.5s ease-in-out;
     }
 
     .lateral h3:hover{
-        zoom: 125%;
+        zoom: 115%;
         color: rgb(190, 236, 236);
     }
 
@@ -260,9 +261,10 @@ body{
     
     
     position: absolute;
-    box-shadow: 0px 0px 10px rgb(69, 69, 69);
+    
     
     align-items: center;
     text-align: center;
     box-shadow: 0px 0px 7.5px rgb(50, 50, 50);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
