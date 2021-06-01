@@ -31,7 +31,30 @@
                         <a><h3>Mi Avance</h3></a>
                         <a><h3>Profesionales</h3></a>
                     </nav>
-                </font>            
+                </font>  
+                <script>
+                    var menu = document.querySelector('.menu_icon');
+                    var lateral = document.querySelector('.lateral');
+
+                    console.log(menu)
+                    console.log(lateral)
+
+                    menu.addEventListener('click',()=>{
+                        lateral.classList.toggle("abrir")
+                        menu.classList.toggle("abrir_icon")
+                    })
+
+
+                    window.addEventListener('click', e=>{
+                        if(lateral.classList.contains('abrir')&&e.target!=lateral && e.target!=menu){
+
+                            lateral.classList.toggle("abrir")
+                            menu.classList.toggle("abrir_icon")
+                        }
+
+                        
+                    })
+                </script>          
                 <br>
         </font>
         <br>
