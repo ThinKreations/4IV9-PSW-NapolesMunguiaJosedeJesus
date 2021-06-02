@@ -123,7 +123,7 @@ body{
 
 .lateral{
     background-image: linear-gradient(90deg, rgba(220, 220, 220, 0.397) 0%, rgba(0, 90, 100, 0.377) 100%), url(../resources/bg1.jpg);
-    background-position:center;
+    background-position: right;
     position: fixed;
     top:0;
     bottom:0;
@@ -148,13 +148,13 @@ body{
     }
 
     .lateral h3{
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.2s ease-in-out;
         
     }
 
     .lateral h3:hover{
         
-        transform: translate(3.5vw);
+        transform: translate(2vw);
         
     }
 
@@ -165,7 +165,7 @@ body{
 .menu_icon{
     background-image: linear-gradient(45deg, rgba(220, 220, 220, 0.397) 0%, rgba(220, 220, 220, 0.377) 100%);
     padding: 10px;
-    margin-bottom:10px;
+    margin-bottom:15px;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0px 0px 7.5px rgb(220, 220, 220);
 }
@@ -180,15 +180,16 @@ body{
 
 .news{
     background-image: linear-gradient(-90deg, rgba(220, 220, 220, 0.397) 0%, rgba(220, 220, 220, 0.377) 100%), url(../resources/bg3.jpg);
-    padding: 15px;
+    padding: 5px;
     width:87.5vw;
     box-shadow: 0px 0px 5px rgb(220, 220, 220);
 }
 
 .new_01{
     background-image: linear-gradient(to top, rgba(240, 240, 240, 0.397) 0%, rgba(240, 240, 240, 0.377) 100%), url(../resources/bg3.jpg);
+    margin-bottom: 10px;
     padding:15px;
-    width: 82%;
+    width: 85%;
     box-shadow: 0px 0px 7.5px rgb(200, 200, 200);
 }
 
@@ -277,6 +278,18 @@ body{
     position: absolute;
     
     
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 7.5px rgb(50, 50, 50);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.footy_0{
+    background-image: linear-gradient(to top, rgba(100, 100, 100, 0.397) 0%, rgba(0, 120, 130, 0.377) 100%), url(../resources/bg1.jpg);
+    background-size: 50%;
+    background-position: center;
+    width: 100%;
+    position: absolute;
     align-items: center;
     text-align: center;
     box-shadow: 0px 0px 7.5px rgb(50, 50, 50);
