@@ -230,10 +230,19 @@ body{
     
 }
 
-.tab_exp td{
-    width:50%;
-    text-align: center;
-}
+    .tab_exp td{
+        width:50%;
+        text-align: center;
+    }
+
+    .tab_exp .td_exp{
+        background-image: linear-gradient(to top, rgba(240, 240, 240, 0.397) 0%, rgba(240, 240, 240, 0.377) 100%), url(../resources/bg3.jpg);
+        margin: 25px;
+        width:50%;
+        padding: 10px;
+        
+        text-align: center;
+    }
 
 .explore_em{
     background-image: linear-gradient(to top, rgba(240, 240, 240, 0.397) 0%, rgba(240, 240, 240, 0.377) 100%), url(../resources/bg3.jpg);
