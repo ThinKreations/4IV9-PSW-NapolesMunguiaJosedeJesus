@@ -175,14 +175,14 @@ body{
 }
 
 .menu_icon{
-    background-image: linear-gradient(45deg, rgba(220, 220, 220, 0.397) 0%, rgba(220, 220, 220, 0.377) 100%);
+    background-image: linear-gradient(45deg, rgba(210, 210, 210, 0.397) 0%, rgba(210, 210, 210, 0.377) 100%);
     padding: 2.5px;
     padding-left: 40vw;
     padding-right: 40vw;
     margin-bottom:35px;
     transition: transform 0.3s ease-in-out;
     border-radius: 5px;
-    box-shadow: 0px 0px 7.5px rgb(220, 220, 220);
+    box-shadow: 0px 0px 7.5px rgb(210, 210, 210);
 }
 
     .menu_icon:hover{
@@ -194,12 +194,12 @@ body{
     }
 
 .seccion{
-    background-image: linear-gradient(-90deg, rgba(220, 220, 220, 0.397) 0%, rgba(220, 220, 220, 0.377) 100%), url(../resources/bg3.jpg);
+    background-image: linear-gradient(-90deg, rgba(210, 210, 210, 0.397) 0%, rgba(210, 210, 210, 0.377) 100%), url(../resources/bg3.jpg);
     padding: 5px;
     margin-bottom:20px;
     border-radius: 7.5px;
     width:87.5vw;
-    box-shadow: 0px 0px 5px rgb(220, 220, 220);
+    box-shadow: 0px 0px 5px rgb(210, 210, 210);
 }
 
     .seccion img{
