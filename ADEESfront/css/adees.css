@@ -175,7 +175,7 @@ body{
 }
 
 .menu_icon{
-    background-image: linear-gradient(45deg, rgba(180, 180, 180, 0.397) 0%, rgba(180, 180, 180, 0.377) 100%);
+    background-color: rgb(200, 200, 200);
     padding: 2.5px;
     padding-left: 40vw;
     padding-right: 40vw;
@@ -184,14 +184,16 @@ body{
     position:fixed;
     transition: transform 0.3s ease-in-out;
     border-radius: 5px;
-    box-shadow: 0px 0px 7.5px rgb(180, 180, 180);
+    box-shadow: 0px 0px 7.5px rgb(150, 150, 150);
     transform:translate(-50%);
+    overflow: hidden;
+    z-index: 9000;
 }
 
     .menu_icon:hover{
-        background-image: linear-gradient(-90deg, rgba(140, 190, 200, 0.397) 0%, rgba(140, 190, 200, 0.377) 100%), url(../resources/bg3.jpg);
+        background-color: rgb(140, 190, 200);
         
-        box-shadow: 0px 0px 7.5px rgb(140, 190, 200);
+        box-shadow: 0px 0px 7.5px rgb(150, 150, 250);
 
         
     }
@@ -256,6 +258,7 @@ body{
         box-shadow: 0px 0px 5px rgb(210, 210, 210);
         text-align: center;
         transition: 0.2s ease-in-out;
+        z-index: 8000;
     }
 
     .td_exp:hover{
